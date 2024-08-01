@@ -1,0 +1,35 @@
+.tableContainer{
+  border: 3px solid rgb(150, 129, 129);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 10px;
+  max-width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    min-height:600px ;
+}
+th,td{
+    padding: 10px;
+  border-bottom: 3px solid rgb(150, 129, 129);
+}
+th .faArrowUp, th .faArrowDown {
+    cursor: pointer; 
+    margin-left: 5px; 
+}
+.userImage{
+    border-radius: 60px;
+    background: #ffff45;
+    width: 40%;
+}
+td{
+    font-size: larger;
+    font-family: serif;
+}
+.tableWrapper{
+    overflow-x: auto;
+}
+
+
