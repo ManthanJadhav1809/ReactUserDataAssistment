@@ -45,7 +45,7 @@ export default function FilterComponent({ usersData, onFilterChange, onSortToggl
         <h1>Employees</h1>
       </div>
       <div className='innerContainer'>
-        <FontAwesomeIcon icon={faFilter} color='red' onClick={handleIconClick} />
+        <FontAwesomeIcon icon={faFilter} fade color='red' onClick={handleIconClick} />
         <select name="state" value={selectedData.state} onChange={handleOnChange}>
           <option value="">State</option>
           {filterStates.map((state, index) => (
